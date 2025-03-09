@@ -98,4 +98,24 @@ a.hover {
   #header .logo {
     max-width: 120px;
   }
+
+  .section-title {
+    margin-bottom: 25px;
+  }
+  .sectioin-title .en {
+    font-size: 32px;
+  }
+
+  #about {
+    flex-direction: column-reverse;
+    margin-bottom: 60px;
+  }
+  #about .img {
+    width: 100px;
+  }
+  #about .detail {
+    width: 100%;
+    padding-left: 0;
+    margin-bottom: 20px;
+  }
 }
