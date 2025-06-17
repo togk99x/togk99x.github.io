@@ -69,7 +69,7 @@ a:hover {
 
 .menu li {
   font-size: 14px;
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 .menu li:first-child {
@@ -145,6 +145,12 @@ a:hover {
   margin-right: 0;
 }
 
+/* contact */
+#contact {
+  padding-top: 135px;
+}
+
+/* footer */
 #footer {
   width: 100vw;
   margin: 0 auto;
@@ -152,6 +158,14 @@ a:hover {
   padding: 0 40px 20px 40px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+#footer ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
 }
 
 /* responsive */
@@ -180,7 +194,7 @@ a:hover {
   #about {
     flex-direction: column;
     margin-bottom: 60px;
-    padding-top: 90px;
+    padding-top: 100px;
   }
 
   #about .img {
@@ -198,12 +212,23 @@ a:hover {
   #works {
     margin-bottom: 60px;
   }
+
   #works .works-list {
     display: none;
     flex-direction: column;
   }
+
   #works .works-list li {
     width: 100%;
     margin: 0 0 20px;
+  }
+
+  #footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .copyright {
+    margin-top: 5px;
   }
 }
