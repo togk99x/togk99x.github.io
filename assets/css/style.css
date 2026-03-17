@@ -10,6 +10,10 @@ body {
   font-family: "Noto Serif JP", serif;
 }
 
+body.no-scroll {
+    overflow: hidden;
+}
+
 img {
   max-width: 100%;
   vertical-align: bottom;
