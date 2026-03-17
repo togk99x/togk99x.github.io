@@ -129,12 +129,23 @@ a:hover {
 }
 
 /* news */
+#news {
+  margin-bottom: 120px;
+}
+
 #news .content {
-  font-size: 14px;
-  line-height: 1.6;
   width: 70%;
   margin: 0 auto;
 }
+
+#news .content h3 {
+  font-size: 16px;
+  line-height: 2;
+}
+
+#news .content p {
+  fonr-size: 14px;
+  line-height: 1.6;
 
 /* works */
 #works {
