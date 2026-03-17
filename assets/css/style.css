@@ -226,7 +226,55 @@ a:hover {
 
 /* contact */
 #contact {
-  padding-top: 135px;
+  padding: 80px 20px;
+}
+
+#contact .section-title {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+#contact form {
+  max-width: 640px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#contact label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+#contact textarea {
+  resize: vertical;
+}
+
+#contact input[type="submit"] {
+  margin-top: 20px;
+  padding: 14px;
+  border: none;
+  background: #000;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#contact input[type="submit"]:hover {
+  opacity: 0.8;
 }
 
 /* footer */
