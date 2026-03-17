@@ -111,6 +111,10 @@ a:hover {
   line-height: 0;
 }
 
+.logo img {
+  display: block;
+  width: auto;
+
 .logo a {
   display: block;
 }
