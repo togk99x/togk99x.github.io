@@ -52,7 +52,7 @@ $body .= "電話番号: " . $tel . "\n";
 $body .= "お問い合わせ内容:\n" . $message . "\n";
 
 // 送信元ヘッダー
-$headers = "From: " . $email . "\r\n";
+$headers = "From: togk99x@gmail.com\r\n";
 $headers .= "Reply-To: " . $email . "\r\n";
 
 // メール送信
