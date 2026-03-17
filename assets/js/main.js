@@ -2,10 +2,10 @@ const hamburger = document.getElementById('hamburger');
 const nav = document.getElementById('nav');
 const navLinks = document.querySelectorAll('#nav a');
 
-hamburger.addEventListner('click', function () {
+hamburger.addEventListener('click', function () {
   hamburger.classList.toggle('active');
   nav.classList.toggle('active');
-  document.body.classList.toggle('no-scrol');
+  document.body.classList.toggle('no-scroll');
 });
 
 navLinks.forEach(link => {
