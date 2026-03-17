@@ -9,7 +9,7 @@ hamburger.addEventListener('click', function () {
 });
 
 navLinks.forEach(link => {
-  link.addEventListner('click', function () {
+  link.addEventListener('click', function () {
     hamburger.classList.remove('active');
     nav.classList.remove('active');
     document.body.classList.remove('no-scroll');
