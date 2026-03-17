@@ -229,6 +229,10 @@ a:hover {
     margin-bottom: 20px;
   }
 
+  #news .content {
+    width: 100%;
+  }
+
   #works {
     margin-bottom: 60px;
   }
